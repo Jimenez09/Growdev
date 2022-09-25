@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table,
+        th, td{
+            border: 1px solid black;
+            padding: 5px;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 100%;">
+        <colgroup>
+            <col span="1" style="background-color: green;">
+            <col span="1" style="background-color: blue;">
+            <col span="1" style="background-color: yellow;">
+        </colgroup><!--estilização-->
+        <!--título da tabela-->
+        <caption>Lista de Growdevers</caption>
+        <!--linha-->
+        <thead>
+            <tr>
+                <!--célula-->
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Steve</td>
+                <td>Jimenez</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td colspan="2">Martins</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Alvez</td>
+                <td rowspan="2">94</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>Silva</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Olá teste!</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
