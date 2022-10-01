@@ -1,0 +1,19 @@
+.inline{
+    /*width e height não funcionam*/
+    display: inline;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
+.block{
+    display: block;
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+}
+.inline-block{
+    display: inline-block;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
